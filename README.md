@@ -19,6 +19,10 @@
 1.  How to [https://firebase.google.com/docs/database](https://firebase.google.com/docs/database)
 2.  Once you have created Project and app go to Authentication -> Turn on for anonymous user
 3.  Go to Database -> Realtime Database -> Rules -> allow read /write like 
+      "rules": {
+          ".read": true,
+          ".write": true
+       }
 4.  Go to file fire.js and search for firebaseConfig variable and change configurations
 5.  Go to the chatList.js and uncomment createChannel menthod for adding a new chat (once dynamic user support will be there this methos should call to create a channel not from componentDidMount)
 

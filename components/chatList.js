@@ -18,7 +18,7 @@ class ChatList extends Component {
 
   componentDidMount() {
     // Uncomment to add one more item in chat list
-    this.createChannel();
+    // this.createChannel();
     this.loadChannels();
   }
 

@@ -30,3 +30,5 @@
 1. Go to [https://reactnative.dev/docs/environment-setup](https://reactnative.dev/docs/environment-setup)
 2. Select tab ‘React Native CLI Quickstart’ (you can also try Expo but to keep things simple try CLI)
 3. Simply follow the steps and app should run
+
+#### Discuss your ideas / issues here : https://spectrum.chat/react-native-chat/?tab=posts

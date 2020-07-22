@@ -10,6 +10,7 @@
 9. Most interesting will be this app only works if the app is open no notifications implemented, now you can go serverless and simply host a function in google cloud to send notifications to the user in case the app is closed. (Search FCM for android and APNS for iOS).
 10. Classes are used unnecessarily and can be converted to functional components
 11. Many optimizations points bad code is left to play
+12. Can add support for sending photos and so on
 12. Have Fun 🤨
 
 #### App already points to a firebase realtime database if you want to play with only the React part you need NOT set up your own firebase feel free to use already configured configurations. BUT in this case, you have to change the users list of the app otherwise all the people who will use this app witch end up seeing one another's messages. To do so go to constant.js -> search for variable activeUserList and change the _id to some random long text so that it will remain unique. Do not make it 1, 2 and so on because many other people will do the same 😜

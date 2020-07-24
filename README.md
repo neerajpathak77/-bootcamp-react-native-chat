@@ -9,7 +9,7 @@
 8. App currently has only 2 hard code users (id 1, 2 ) who can chat together, you can make a service to create users, and then it will be a real chat app where you can search user and initiate chat.
 9. Most interesting will be this app only works if the app is open no notifications implemented, now you can go serverless and simply host a function in google cloud to send notifications to the user in case the app is closed. (Search FCM for android and APNS for iOS).
 10. Classes are used unnecessarily and can be converted to functional components
-11. Many optimizations points bad code is left to play
+11. Many optimizations points bad code is left to play for example Object.freeze is not used in singleton and many more.
 12. Can add support for sending photos and so on
 12. Have Fun 🤨
 
